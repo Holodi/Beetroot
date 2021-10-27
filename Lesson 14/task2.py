@@ -11,10 +11,8 @@ def stop_words(words: list):
 
     return wrap
 
-
 @stop_words(["pepsi", "BMW"])
 def create_slogan(name: str):
     return f"{name} drinks pepsi in his brand new BMW!"
-
 
 print(create_slogan("Ihor"))
