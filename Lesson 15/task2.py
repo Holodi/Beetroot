@@ -59,7 +59,6 @@ class Worker:
                f'company = {self.company},' \
                f'boss = {self._boss})'
 
-
 boss1 = Boss(1, "Boss1", "Work1")
 boss2 = Boss(3, "Boss3", "Work4")
 worker1 = Worker(123, "Oleksii", "home", boss1)
