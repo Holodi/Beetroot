@@ -24,10 +24,8 @@ def arg_rules(type_: type, max_lenght: int, contains: list):
 
     return wrap
 
-
 @arg_rules(str, 15, ["com", "@"])
 def create_slogan(name: str):
     return f"{name} drinks pepsi in his brand new BMW!"
-
 
 print(create_slogan("kholod@to.com"))
